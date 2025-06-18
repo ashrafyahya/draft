@@ -1,0 +1,71 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+
+# production
+/dist
+/build
+/www
+
+# Capacitor
+/android/app/build/
+/android/build/
+/android/.gradle/
+/android/capacitor-cordova-android-plugins/build/
+/android/app/release/
+/android/local.properties
+/android/app/src/main/assets/public
+/ios/App/build/
+/ios/App/Pods/
+/ios/App/output/
+/ios/App/App/public/
+/ios/DerivedData
+/ios/Pods
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/.nx
+/.nx/cache
+/.vscode/*
+!/.vscode/extensions.json
+.idea
+*.log
+*.tmp
+*.tmp.*
+*.sublime-project
+*.sublime-workspace
+.ionic/
+.sass-cache/
+$RECYCLE.BIN/
+UserInterfaceState.xcuserstate
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Optional eslint cache
+.eslintcache
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+local.properties

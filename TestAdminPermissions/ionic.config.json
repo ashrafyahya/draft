@@ -1,0 +1,7 @@
+{
+  "name": "TestAdminPermissions",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
